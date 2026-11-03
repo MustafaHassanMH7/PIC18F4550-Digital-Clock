@@ -1,0 +1,8 @@
+Proje Adı: PIC18F4550 Tabanlı Dijital Saat Tasarımı
+
+Açıklama:
+PIC18F4550 mikrodenetleyicisi kullanılarak dört haneli ortak anot 7-segment gösterge üzerinde saat ve dakika bilgilerinin görüntülenmesini amaçlayan dijital saat prototipi geliştirildi. Embedded C ve mikroC PRO for PIC ile yazılım çalışmaları yapıldı; PORTB segment sürme, PORTD hane seçimi ve gösterge çoklama algoritmaları kullanıldı. Proteus ortamında devre tasarımı hazırlandı. Kaynak proje derleme loglarında başarılı derleme kayıtları bulunuyor. Yazılımda gecikme döngüsüne dayalı yaklaşık zamanlama kullanıldığından, gerçek zaman doğruluğu ve fiziksel donanım performansı ayrıca test edilmelidir.
+
+Kullanılan teknolojiler: PIC18F4550, Embedded C, mikroC PRO for PIC, Proteus, GPIO, 7-Segment Display.
+
+URL Link: https://github.com/MustafaHassanMH7/PIC18F4550-Digital-Clock
