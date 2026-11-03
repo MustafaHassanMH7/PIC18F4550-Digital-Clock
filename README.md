@@ -24,7 +24,7 @@ The repository contains the embedded C source, mikroC configuration, original co
 | Digit selection | PORTD |
 | Multiplexing | `displayTime()` / `displayNumber()` |
 | Time increment | Software loop counting with `Delay_ms(5)` |
-| Circuit design | Proteus (original project, binary file not yet uploaded) |
+| Circuit design | Proteus (original project file available under `simulation/`) |
 
 ## Files
 
@@ -36,7 +36,20 @@ The repository contains the embedded C source, mikroC configuration, original co
 - [`KARIYER_PROJECT_TEXT.txt`](KARIYER_PROJECT_TEXT.txt) — concise Turkish project description.
 - `.gitignore` — ignores generated IDE artifacts.
 
-**Original binary assets not yet published here:** `simulation/clocke.pdsprj` (Proteus), `docs/Circuit_Overview.jpg` (presentation-derived image), and `docs/Sunum.pptx` (slides). These remain in the separately prepared local project archive and are **not** links to currently accessible GitHub files.
+## Circuit and simulation resources
+
+### Circuit overview
+
+![PIC18F4550 digital clock circuit overview](docs/Circuit_Overview.jpg)
+
+### Project files
+
+| Resource | Link | Notes |
+|---|---|---|
+| Proteus project | [clocke.pdsprj](simulation/clocke.pdsprj) | Original project file; execution and dependencies have not been re-verified |
+| Circuit image | [Circuit_Overview.jpg](docs/Circuit_Overview.jpg) | Diagram/image extracted from the original presentation |
+| Presentation | [Sunum.pptx](docs/Sunum.pptx) | Original project slides |
+| Additional uploaded photo | [WhatsApp image](docs/WhatsApp%20Image%202026-11-03%20at%2015.19.18.jpeg) | Supplementary uploaded image |
 
 ## How the firmware works
 
