@@ -1,0 +1,15 @@
+# mikroC / Proteus generated files
+*.dbg
+*.dlt
+*.lst
+*.mcl
+*.asm
+*.cp
+*.cfg
+*.brk
+*.bmk
+*.user.dic
+*.workspace.xml
+*.pdsbak
+*.log
+# Keep the archived compiled .hex intentionally.
